@@ -1,0 +1,4 @@
+var myObj = {writing_utensil: "pen", color: "pink", type: "ball point", ink_color: "black"};
+var myObj = {phone_type: "Google Pixel", generation: "3", color: "mint green", case_color: "black"};
+var myObj = {clothing_type: "shirt", color: "tomato red", sleeve_type: "short", style: "buttons"};
+var myObj = {office tool: "stapler", color: "black", use: "binds collated papers together"};
