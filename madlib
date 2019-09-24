@@ -1,0 +1,34 @@
+# coding: utf-8
+
+# let the user know what's going on
+print ("Welcome to MadLibs!")
+print ("Answer the questions below to play.")
+print ("-----------------------------------")
+
+# variables containing all of your story info
+verb1 = raw_input("Enter a verb: ")
+noun1 = raw_input("Enter a noun: ")
+verbPastTense1 = raw_input("Enter a verb (past tense): ")
+pluralNoun1 = raw_input("Enter a plural noun: ")
+pluralNoun2 = raw_input("Enter a plural noun: ")
+adjective1 = raw_input("Enter an adjective: ")
+pluralNoun3 = raw_input("Enter a plural noun: ")
+verb2 = raw_input("Enter a verb ending in -ing: ")
+color1 = raw_input("Enter a color: ")
+pluralNoun4 = raw_input("Enter a plural noun: ")
+noun2 = raw_input("Enter a noun: ")
+noun3 = raw_input("Enter a noun: ")
+adjective2 = raw_input("Enter an adjective: ")
+verb3 = raw_input("Enter a verb: ")
+adjective3 = raw_input("Enter an adjective: ")
+adjective4 = raw_input("Enter an adjective: ")
+
+# this is the story. it is made up of strings and variables.
+# the \ at the end of each line let's the computer know our string is a long one
+# (a whole paragraph!) and we want to continue more code on the next line. 
+# play close attention to the syntax!
+
+story = "O say can you " + verb1 + " by the dawn’s early " + noun1 + ", What so proudly we " + verbPastTense1 + " at the twilight’s last gleaming. Who’s broad " + pluralNoun1 + " and bright " + pluralNoun2 + " through the " + adjective1 + " fight. O’er the " + pluralNoun3 + " we watched, were so gallantly " + verb2 + ". And the rockets’ color1 glare, the " + pluralNoun4 + " bursting in " + noun2 + ", Gave proof through the night that our " + noun3 + " was still there; oh say does that" + adjective2 + " banner yet " + verb3 + ", O’er the land of the " + adjective3 + " and the home of the" + adjective4 + "."
+
+# finally we print the story
+print (story)
