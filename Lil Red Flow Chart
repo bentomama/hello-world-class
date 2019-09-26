@@ -1,0 +1,15 @@
+Little Red Riding Hood
+Little Red has to decide whether to visit grandma
+Does she go by meadow or forest?
+  Option 1: she goes by meadow and she can choose to look around or just keeping skipping
+    If she looks around, she'll spy the wolf and will roll the dice to see if she makes it home safely
+      If she makes it home, she starts again deciding which way to go to grandma's
+      If she rolls low, she dies and you exit the game
+    If she keeps skipping she gets to grandma's house and the wolf eats her
+    
+  Option 2: she goes by the forest path, sees the woodsman and either talks or doesn't talk to him
+    If she doesn't talk to him she gets to grandma's house and the wolf eats her
+    If she talks to him:
+      a. He becomes a friend
+      b. she goes to grandma's house
+      c. the woodsman hears her scream when she discovers that the wolf has eaten grandma and saves the day
