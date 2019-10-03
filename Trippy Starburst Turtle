@@ -1,0 +1,64 @@
+import turtle 
+
+trippy = turtle.Turtle()
+
+trippy.hideturtle()
+trippy.speed(500)
+
+window = turtle.Screen()
+window.bgcolor("black")
+
+
+for i in range(180):
+    trippy.color('#FA09E7')
+    trippy.forward(1000)
+    trippy.penup()
+    trippy.setposition(0, 0)
+    trippy.pendown()
+    trippy.right(2)
+
+    trippy.penup()
+    trippy.setposition(0, 0)
+    trippy.pendown()
+
+for i in range(180):
+    trippy.color('orange')
+    trippy.forward(300)
+    trippy.right(50)
+    trippy.forward(200)
+    trippy.left(30)
+    trippy.forward(400) 
+    trippy.right(1)
+    
+    trippy.penup()
+    trippy.setposition(0, 0)
+    trippy.pendown()
+
+for i in range(180):
+    trippy.color('#20E248')  
+    trippy.forward(200)
+    trippy.left(20)
+    trippy.forward(200)
+    trippy.right(50)
+    trippy.forward(500)
+    trippy.right(2)
+
+    trippy.penup()
+    trippy.setposition(0, 0)
+    trippy.pendown()
+
+for i in range(180):
+    trippy.color('white')
+    trippy.forward(300)
+    trippy.right(20)
+    trippy.forward(50)
+    trippy.right(100)
+    trippy.forward(1000)
+    trippy.right(4)
+
+    trippy.penup()
+    trippy.setposition(0, 0)
+    trippy.pendown()
+  
+    
+turtle.done()
